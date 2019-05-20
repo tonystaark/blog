@@ -3,7 +3,7 @@ import AdSense from 'react-adsense';
 
 const MyAdSense = () => (
   <AdSense.Google
-    client='pub-7235408523384570'
+    client='ca-pub-7235408523384570'
     slot='5705531085'
   />
 );
