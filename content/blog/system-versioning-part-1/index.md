@@ -40,6 +40,7 @@ The reason why I am opting for MariaDB for my use case is because MariaDB has a 
 If you have previously installed other MySQL servers on your laptop. Make sure you do a clean uninstall and install your MariaDB. If you are not sure how to do that, be sure to checkout 
 ([How to uninstall and install your MariaDB](https://gist.github.com/brandonsimpson/5204ce8a46f7a20071b5))
 
+<adsense></adsense>
 ##Folder Structure
 
 ````

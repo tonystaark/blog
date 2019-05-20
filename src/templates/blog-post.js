@@ -6,6 +6,16 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import rehypeReact from 'rehype-react'
+import MyAdSense from '../components/myAdSense';
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: {
+    'adsense': MyAdSense,
+  },
+}).Compiler;
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -28,7 +38,8 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
+        <div>{renderAst(post.htmlAst)}</div>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -83,6 +94,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
       }
+      htmlAst
     }
   }
 `
