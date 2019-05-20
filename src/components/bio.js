@@ -40,11 +40,11 @@ function Bio() {
             />
             <p>
               Personal blog by  <strong>{author}</strong> who lives and works in Singapore building useful things.
-              {` `}
-              Follow him on
+              Follow him on 
+               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Twitter
-              </a>• 
+              </a> {` `}• {` `}
               <a href={`https://github.com/tonystaark`}>
                 Github
               </a>
