@@ -46,12 +46,12 @@ module.exports = {
               maxWidth: 590,
             },
           },
-          {
-            resolve: `gatsby-plugin-google-adsense`,
-            options: {
-              publisherId: `ca-pub-7235408523384570`
-            },
-          },
+          // {
+          //   resolve: `gatsby-plugin-google-adsense`,
+          //   options: {
+          //     publisherId: `ca-pub-7235408523384570`
+          //   },
+          // },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
