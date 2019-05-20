@@ -25,7 +25,6 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Blog Sidebar -->
           <ins class="adsbygoogle"
               style="display:block"
               data-ad-client="ca-pub-7235408523384570"
@@ -33,9 +32,9 @@ export default function HTML(props) {
               data-ad-format="auto"
               data-full-width-responsive="true">
           </ins>
-          <script>
+          {/* <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
+          </script> */}
         <script dangerouslySetInnerHTML={{__html: '(window.adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7235408523384570",enable_page_level_ads: true});'}}></script>
       </body>
     </html>
