@@ -16,6 +16,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
+        console.log('data.site.siteMetadata',data.site.siteMetadata)
         const { author, social } = data.site.siteMetadata
         return (
           <div
@@ -38,11 +39,14 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Personal blog by  <strong>{author}</strong> who lives and works in Singapore building useful things.
               {` `}
+              Follow him on
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Twitter
+              </a>• 
+              <a href={`https://github.com/tonystaark`}>
+                Github
               </a>
             </p>
           </div>
