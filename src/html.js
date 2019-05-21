@@ -12,6 +12,14 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        {/* <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7235408523384570"
+            data-ad-slot="9210081627"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins> */}
+        <script dangerouslySetInnerHTML={{__html: '(window.adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7235408523384570",enable_page_level_ads: true});'}}></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -24,8 +32,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script dangerouslySetInnerHTML={{__html: '(window.adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7235408523384570",enable_page_level_ads: true});'}}></script>
       </body>
     </html>
   )
