@@ -8,8 +8,11 @@ Ever since I have passed my AWS Solutions Architect exam last month, many people
 I joined Thoughtworks two months ago, and I only started to prepare my AWS Solutions Architect exam after finishing my first week orientation. I remember I started studying on 28th February, and took the exam on 25th March around 6am (It was a friday and also my first day of joining my first Thoughtworks project officially). My company has tonnes of resources that help Thoughtworkers in learning technologies, especially in cloud computing, and I am lucky to be enjoying the resources. I mainly used the resources recommended by Thoughtworks community to study for the cert as below:
 
 **Start Prepping Date**: 28th February 2022
+
 **Exam Date**: 25th March 2022
+
 **Time taken**: ~ 1 month
+
 **Resources used**:
 
 1. [Ultimate AWS Certified Solutions Architect Associate 2022](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/)
