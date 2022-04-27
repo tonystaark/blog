@@ -6,13 +6,8 @@ export default function HTML(props) {
     <>
       <script
         async
-        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html:
-            '(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7235408523384570",enable_page_level_ads: true});',
-        }}
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7235408523384570"
+        crossorigin="anonymous"
       />
       <html {...props.htmlAttributes}>
         <head>
