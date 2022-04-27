@@ -8,14 +8,12 @@ export default function HTML(props) {
         async
         src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       />
-      <script>
-        {`
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-7235408523384570",
-          enable_page_level_ads: true
-        });
-      `}
-      </script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html:
+            '(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7235408523384570",enable_page_level_ads: true});',
+        }}
+      />
       <html {...props.htmlAttributes}>
         <head>
           <meta charSet="utf-8" />
