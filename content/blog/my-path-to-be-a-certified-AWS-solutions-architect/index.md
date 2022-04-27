@@ -1,5 +1,5 @@
 ---
-title: My Path To Be A Certified AWS Solution
+title: My Path To Be A Certified AWS Solution Architect
 date: "2022-04-27"
 ---
 
@@ -36,5 +36,5 @@ If you feel like you are confident enough at this point of time, probably you co
 4. **Final exam simulator** – 65 questions are pulled randomly from a pool of the questions from above. Same time limit (130 mins) and pass mark (72%) as the real AWS exam
    The author claimed that the exam questions are regularly updated with feedback from students who took the exam, and when I took the exam I did see resemblance between the exam questions and the practise exams from him, that really helped me tremendously in passing the exam.
 
-All in all, it took me one month to go through all the above resources, including taking the exam as well.
+All in all, it took me one month to go through all the above resources almost day and night everyday, also including taking the exam as well. You probably need close to 2 months to prepare if you are not able to dedicate full one month for it.
 _That's it_, now that you have learnt how to prepare for your exam after peeking into my journey, hope you are able to pass your exam with flying colors and get yourself certified as a AWS SA too !
